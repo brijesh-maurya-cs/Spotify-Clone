@@ -1,0 +1,360 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+  background-color: black;
+  color: white;
+}
+.main {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  display: flex;
+  padding: 0.5rem;
+  overflow: hidden;
+}
+.navbar {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  height: 40px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem 1rem 1rem;
+}
+.sidebar {
+  width: 400px;
+  margin-right: 0.5rem;
+  border-radius: 0.5rem;
+  margin-top: 75px;
+  border-top: 1px solid;
+  border-color: #232323;
+  padding: 1rem;
+}
+.main-content {
+  background-color: #232323;
+  flex: 1;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 75px;
+  overflow: auto;
+}
+.nav-icons {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.nav-icons i {
+  font-size: 1.75rem;
+  margin-right: 1.5rem;
+}
+.nav-search {
+  width: 300px;
+  padding: 0.8rem 0 0.8rem 0.5rem;
+  border-radius: 50px;
+  background-color: #232323;
+  color: white;
+  border: none;
+  transition: background-color 1s ease;
+}
+.nav-search::placeholder {
+  color: white;
+  font-size: 1rem;
+}
+.nav-search:hover {
+  background-color: #7d7b7b;
+}
+.nav-options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+}
+.dark-btn {
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  opacity: 0.5;
+  background-color: black;
+  transition: transform 1s linear;
+}
+.dark-btn:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+.light-btn {
+  margin-right: 2rem;
+  padding: 0.65rem 1.5rem 0.75rem 1.5rem;
+  border-radius: 50px;
+  background-color: white;
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+.light-btn:hover {
+  scale: 1.1;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.a-icon {
+  margin-right: 0.5rem;
+}
+.span-a {
+  opacity: 0.5;
+  transition: transform 1s linear;
+}
+.span-a:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+.nav-line {
+  font-size: 2rem;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: transparent;
+  width: 150px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-right: 0.75rem;
+}
+.card-img img {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.card-info {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+.card:hover {
+  background-color: #2f2f2f;
+}
+.card-title:hover {
+  text-decoration: underline;
+}
+.card-info:hover {
+  text-decoration: underline;
+}
+.card-artist {
+  background-color: transparent;
+  width: 150px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-right: 0.75rem;
+}
+.card-img-artist img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+.card-artist:hover {
+  background-color: #2f2f2f;
+}
+h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.footer {
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-color: #424141;
+  padding-top: 2rem;
+}
+.footer-one {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.footer-two {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.footer-three {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.footer-four {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.footer-heading {
+  opacity: 1;
+  font-weight: 600;
+}
+.footer-span {
+  margin-top: 1rem;
+  opacity: 0.7;
+}
+.footer-span:hover {
+  opacity: 1;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.copy-p {
+  opacity: 0.7;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.library {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  align-items: center;
+  border-bottom: 1px solid;
+  border-color: #232323;
+  box-shadow: 0 2px 3px black;
+}
+.lib-icon span {
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 0.5rem;
+}
+.boxes {
+  overflow: auto;
+  margin: 0.75rem 0 1.75rem 0;
+  padding: 0.75rem 1rem;
+  height: 10rem;
+  background-color: black;
+  border-radius: 0.5rem;
+}
+.box-1 {
+  background-color: #232323;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+.box-2 {
+  background-color: #232323;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.box-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.box-info {
+  font-size: 0.85rem;
+}
+.badge {
+  margin-top: 1rem;
+  border: none;
+  border-radius: 100px;
+  font-weight: 700;
+  padding: 0.25rem 1rem;
+  height: 2rem;
+  background-color: white;
+  width: fit-content;
+  transition: transform 1s linear;
+}
+.sidebar {
+  scrollbar-width: thin;
+  scrollbar-color: #888 transparent;
+}
+.badge:hover {
+  transform: scale(1.1);
+}
+.sidebar-span {
+  height: 100vh;
+}
+.sidebar-span {
+  margin-top: 1rem;
+  height: 320px;
+  background-color: black;
+}
+.sidebar-span-elements {
+  font-size: 0.85rem;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: transparent;
+}
+.sidebar-span-elements span {
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+}
+.span-button {
+  margin-left: 1rem;
+  background-color: black;
+  border-color: white;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  font-size: 1rem;
+}
+.globe {
+  margin-right: 0.5rem;
+}
+.span-cookies {
+  opacity: 1;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.span-cookies:hover {
+  text-decoration: underline;
+}
+.side-span {
+  opacity: 0.7;
+}
+.side-info {
+  margin-right: 2rem;
+  margin-left: 1.25rem;
+  line-height: 1.5rem;
+  opacity: 0.7;
+}
+
+@media (max-width: 1000px) {
+  .hidemedia {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .dark-btn {
+    display: none;
+  }
+  .side-info {
+    display: none;
+  }
+}
