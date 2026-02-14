@@ -23,11 +23,15 @@ This project focuses on layout design, flexbox positioning, and clean UI structu
 
 ## 📂 Project Structure
 
-spotify-clone/
+
+Spotify-Clone/
 │
 ├── index.html
 ├── style.css
+├── screenshot.png
+├── .gitignore
 └── assets/
+```
 
 
 ## 📸 Preview
