@@ -31,7 +31,7 @@ Spotify-Clone/
 ├── screenshot.png
 ├── .gitignore
 └── assets/
-```
+
 
 
 ## 📸 Preview
